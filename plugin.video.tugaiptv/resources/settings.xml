@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Geral">
+      <setting label="Configuracoes Gerais" type="lsep" />
+      <setting id="username" type="text" label="Usuario" default=""/>
+      <setting id="password" type="text" label="Senha" default="" option="hidden" enable="!eq(-1,false)"/>
+   </category>
+</settings>

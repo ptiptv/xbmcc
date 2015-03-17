@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tugaiptv"
+       name="Tuga IPTV"
+       version="0.4.7"
+       provider-name="Tuga IPTV">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common" version="1.0.0"/>
+	<import addon="plugin.video.xbmctorrent" version="0.6.5"/>
+	<import addon="script.module.metahandler" version="1.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Tuga IPTV Addon.</summary>
+        <description>Tuga IPTV Addon.</description>
+        <platform>all</platform>
+    </extension>
+</addon>

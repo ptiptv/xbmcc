@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.tugaiptv" name="TugaIPTV" version="1.0.1" provider-name="TugaIPTV">
+ <extension point="xbmc.addon.repository" name="TugaIPTV Add-on Repository">
+  <info compressed="false">http://tuga-iptv.googlecode.com/svn/trunk/addons.xml</info>
+  <checksum>http://tuga-iptv.googlecode.com/svn/trunk/addons.xml.md5</checksum>
+  <datadir zip="false">http://tuga-iptv.googlecode.com/svn/trunk/</datadir>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+  <summary>TugaIPTV</summary>
+  <description>TugaIPTV</description>
+  <disclaimer></disclaimer>
+  <platform>all</platform>
+ </extension>
+</addon>
